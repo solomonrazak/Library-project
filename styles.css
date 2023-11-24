@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(207, 204, 199) !important;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.form-one {
+  display: flex;
+  justify-content: space-around;
+}
+.new-user-book {
+  width: 16em;
+  height: 21em;
+  background-color: rgba(194, 178, 178, 0.29);
+  display: none;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+}
+#checking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#tess > label {
+  display: flex;
+  justify-self: flex-start;
+  margin-right: -2px;
+}
+.box > input {
+  cursor: pointer;
+}
+.hoverclass1:hover {
+  color: white !important;
+  background-color: red !important;
+}
